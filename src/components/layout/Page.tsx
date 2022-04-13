@@ -12,12 +12,17 @@ const Main = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: ${({ theme }) => theme.spacing.lg};
 `;
 
 const Wrapper = styled.div`
   width: 100%;
+  height: 100vh;
   max-width: ${({ theme }) => theme.breakpoints.xl};
+  gap: ${({ theme }) => theme.spacing.xl};
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 /* component */

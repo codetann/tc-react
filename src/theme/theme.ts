@@ -46,6 +46,8 @@ const spacing = {
   md: "0.5rem",
   lg: "1rem",
   xl: "2rem",
+  xxl: "3rem",
+  xxxl: "4rem",
 };
 
 const breakpoints = {
