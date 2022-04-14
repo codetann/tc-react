@@ -21,6 +21,7 @@ const text = {
 };
 
 const fontSizes = {
+  xs: ".7rem",
   sm: "0.8rem",
   md: "1rem",
   lg: "2rem",

@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Page, NavBar } from "@components";
+import { Page, NavBar, Footer } from "@components";
 import { config } from "@config";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -29,6 +29,7 @@ function App() {
             ))}
           </Routes>
         </AnimatePresence>
+        <Footer />
       </Page>
     </BrowserRouter>
   );
